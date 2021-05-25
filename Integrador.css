@@ -1,6 +1,6 @@
 #index{
     width: 1340px;
-    height: 1300px;
+    height: 1150px;
     background-image: url("https://motionarray.imgix.net/preview-268054-RgZPqH0sHh-high_0000.jpg");
     background-repeat: 50% 50%;
     background-size: contain;
@@ -268,14 +268,7 @@ iframe{
     margin-bottom: 0px;
 }
 
-footer {
-    background-color: #253575;
-    position:absolute;
-    margin-top: 20px;
-    width: 1300px;
-    height: 65px;
-    margin-left: 18px;
-  }
+
 #algo{
     width: 350px;
     height: 440px;
@@ -284,21 +277,6 @@ footer {
     margin-right: 20px;
     margin-top: 30px;
   }
-
-.redes {
-    font-family: 'Zen Dots', cursive;
-    font-size: 42px;  
-    height: 65px;
-    width: 430px;  
-    display: inline-block;
-    margin: 0px 0px 0px 0px;
-    vertical-align: middle; 
-}
-
-.redes a{
-    text-decoration: none ;
-    color: bisque;    
-}
 
 #index .mySlides {
     display: none;
@@ -440,4 +418,52 @@ footer {
     width: 220px;
     margin-left: 40px;
     margin-top: 0px;
+}
+
+.asa{
+    text-decoration: none ;
+    color: bisque;
+    font-family: 'Zen Dots', cursive;
+    font-size: 45px;  
+    margin-top: 50px;
+    margin-left: 75px;   
+    margin-right: 75px;
+}
+footer {
+    background-color: #253575;
+    margin-top: 20px;
+    width: 1300px;
+    height: 55px;
+    margin-left: 18px;
+}
+
+.textoHist{
+   width: 400px;
+   display:inline-block; 
+}
+
+.offline{
+    width: 370px;
+    height: 450px;
+    background-color: #253575;
+    margin-top: 25px;
+    margin-left: 20px;
+    display: inline-block;
+    color: bisque;
+    font-family: 'Zen Dots', cursive;
+    padding: 15px;
+}
+
+.imafun{
+    background-color: #253575;
+    margin-right: 20px;
+    margin-top: 25px;
+    float: right;
+    width: 870px;
+    height: 480px;
+}
+
+.lak{
+    margin-left: 18px;
+    margin-top: 8px;
 }
