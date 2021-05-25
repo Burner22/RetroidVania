@@ -1,0 +1,443 @@
+#index{
+    width: 1340px;
+    height: 1300px;
+    background-image: url("https://motionarray.imgix.net/preview-268054-RgZPqH0sHh-high_0000.jpg");
+    background-repeat: 50% 50%;
+    background-size: contain;
+    background-position: fixed;
+    box-sizing: border-box
+}
+#biblindex{
+    background-image: url("https://motionarray.imgix.net/preview-268054-RgZPqH0sHh-high_0000.jpg");
+    width: 1340px;
+    height: 1000px;
+    background-repeat: 50% 50%;
+    background-size: contain;
+    background-position: fixed;   
+}
+
+li{  
+    list-style:none;
+    float: left;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+#menu{  
+    margin-right: 0px;
+    background-color: #253575;
+    width: 1300px;
+    height: 40px;
+    margin-left: 20px;    
+    position: -webkit-sticky;
+    
+    top: 10px;   
+}
+
+.lista{
+    text-align: center;
+    color: bisque;
+    padding-left: 170px;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    padding-right: 180px;
+    margin-left: 0px;
+    text-decoration:none;
+    font-family: 'Zen Dots', cursive;
+    font-size: 14px;
+}
+
+.lista:hover{
+    background-color: bisque;
+    color: #253575;
+}
+
+#biblio{
+   width: 1300px;
+   height: 700px; 
+   background-color: #253575;
+   margin-top: 25px;
+   margin-left: 20px;
+}
+
+.game{
+    margin-top: 30px;
+    margin-left: 35px;
+    transition: transform 1s; 
+}
+.game:hover{
+    transform : scale(1.2);
+}
+
+#juego{
+    width: 720px;
+    height: 500px;
+    background-color: #253575;
+    margin-top: 30px;
+    margin-right: 20px;
+    float: right;
+}
+
+#ingame{
+    height: 600px;
+    width: 1340px;
+    background-repeat: 50% 50%;
+    background-position: fixed;
+    background-image: url("https://motionarray.imgix.net/preview-268054-RgZPqH0sHh-high_0000.jpg");
+}
+iframe{
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+#info{
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: #253575; 
+    width: 520px;
+    height: 500px;   
+    float: left;
+}
+
+.title{
+    text-align: center;
+    color: bisque;
+    font-size: xx-large;
+    margin-bottom: 0px;
+    font-family: 'Zen Dots', cursive;
+    margin-top: 15px;
+}
+
+.thisgame{
+    font-family: 'Zen Dots', cursive;
+    font-size: 20px;
+    float:right;
+    width: 250px;
+    color: bisque;
+    margin-right: 15px;
+}
+
+.imgame{
+    float:left;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.slideshow-container{
+    width: 1300px;
+    height: 500px;
+    background-color: #253575;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+
+.cont{
+    margin: 0px 4px 0px 4px;
+    list-style: none;
+}
+.cont1{
+    margin-left: 400px;
+}
+.cont2{
+    margin: 0px;
+}
+
+#contactate{
+    width: 1300px;
+    height: 90px;
+    background-color: #253575;
+    margin-top: 30px;
+    margin-left: 20px; 
+    font-family: 'Zen Dots', cursive;
+    text-align: center;
+    color: bisque;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#formulario{
+    width: 900px;
+    height: 420px; 
+    background-color: #253575;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: 'Zen Dots', cursive;
+    color: bisque;
+    padding-top: 20px;
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.nick{
+    width: 420px;
+    height: 60px;
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display:inline-block;
+}
+.nick input{
+    width: 400px;
+    height: 20px;
+    margin-top: 10px;
+}
+.juego{
+    width: 420px;
+    height: 60px;
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display:inline-block;
+}
+.juego input{
+    width: 400px;
+    height: 20px;
+    margin-top: 10px;
+}
+.mail{
+    width: 420px;
+    height: 60px;
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display:inline-block;
+}
+.mail input{
+    width: 300px;
+    height: 20px;
+    margin-top: 10px;
+}
+.consola{
+    float: right;
+    margin-right: 42px;
+    margin-top: 10px;
+}
+.consola input{
+    margin-top: 15px;
+}
+.generacion{
+    margin-right: 120px;
+    margin-top: 10px; 
+    float: right;   
+    
+}
+.caja{
+    width: 420px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 10px;  
+}
+.caja textarea{
+    margin-top: 10px;
+}
+.myButton {
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:21px;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 35px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+    margin-left: 370px;
+    margin-top: 10px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#formul{
+    width: 1340px;
+    height: 750px;
+    background-image: url("https://motionarray.imgix.net/preview-268054-RgZPqH0sHh-high_0000.jpg");
+    background-repeat: 50% 50%;
+    background-size: contain;
+    background-position: fixed;
+    margin-bottom: 0px;
+}
+
+footer {
+    background-color: #253575;
+    position:absolute;
+    margin-top: 20px;
+    width: 1300px;
+    height: 65px;
+    margin-left: 18px;
+  }
+#algo{
+    width: 350px;
+    height: 440px;
+    background-color: #253575;
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px;
+  }
+
+.redes {
+    font-family: 'Zen Dots', cursive;
+    font-size: 42px;  
+    height: 65px;
+    width: 430px;  
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+    vertical-align: middle; 
+}
+
+.redes a{
+    text-decoration: none ;
+    color: bisque;    
+}
+
+#index .mySlides {
+    display: none;
+}
+#index .gale{
+    vertical-align: middle;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#index .slideshow-container{
+  background-color: #253575;
+  width: 900px;
+  position: relative;
+  margin-top: 25px;
+  margin-right: 0px;
+  display:inline-block;
+}
+
+#index .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.saludo{
+    margin-right: 20px;
+    background-color: #253575;
+    margin-left: 30px;
+    width: 370px;
+    height: 500px;
+    margin-top: 25px;
+    float: right;
+}
+
+.saludo img{
+    margin-left: 30px;       
+}
+
+.offline{
+    width: 1300px;
+    height: 600px;
+    background-color: #253575;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+#formul .aka {display: none}
+
+
+#formul .recoJuego {
+  max-width: 300px;
+  position: relative;
+  margin: auto;
+  box-sizing: border-box;
+  font-family: 'Zen Dots', cursive;
+  font-size: 25px;
+  color: bisque;
+}
+
+/* Next & previous buttons */
+#formul .prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 10px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+#formul .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+#formul .prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+#formul .dol {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+#formul .active, .dol:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+#formul .fede {
+  -webkit-animation-name: fede;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fede;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fede {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fede {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 15px}
+}
+
+.recog{
+    width: 220px;
+    margin-left: 40px;
+    margin-top: 0px;
+}

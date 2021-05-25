@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetroArch</title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="Integrador.css"/>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+<link rel="icon" href="https://i1.wp.com/romsnintendoenespanol.com.ve/wp-content/uploads/2017/07/nintendo64logo-300x300.png?fit=32%2C32&amp;ssl=1" sizes="32x32">
+
+<body id="formul">
+    
+    <div id="menu">
+        <ul>
+            <li>              
+                <a class="lista" href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a class="lista" href="Biblioteca.html">Biblioteca</a>
+            </li>
+            <li>
+                <a class="lista" href="Formulario.html">Pedidos</a>
+            </li>
+        </ul>
+    </div>
+    <div id="contactate">
+        <h1 class="cont2">Esto es solo el comienzo! Proximamente juegos de SNES y N64.</h1>
+        <ul class="cont1">
+            <li class="cont">
+                <img src="img/snes_ico.png" alt="32x32">
+            </li>
+            <li>
+                Contactenos y haga su pedido!
+            </li>
+            <li class="cont">
+                <img src="img/snes_ico.png" alt="32x32">
+            </li>
+        </ul>
+    </div>
+    <div id="formulario">
+        <form id="nose" method="GET" >
+            <div class="nick">
+                <label>Dinos tu nick!</label> <br>          
+                <input name="fnick" id="fnick"  type="text" >
+            </div>
+            
+            <div class="juego">
+                <label>Juego que desea que agreguemos:</label><br>
+                <input name="fjuego" id="fjuego" type="text" >
+                <br>
+            </div>
+            
+            <div class="mail">
+                <label>Email:</label><br>
+                <input name="fmail" id="fmail"  type="text">
+                <br>
+            </div>
+                
+            <div class="consola">
+                <div class="tipConsol" id="check1">
+                    <label>A que consola pertenece su juego</label>
+                    <br>
+                    <input name="tipo" type="radio" value="NES">
+                    <label>NES</label>
+                    <br>
+                    <input name="tipo" type="radio"  value="SNES">
+                    <label>SNES</label>            
+                    <br>
+                    <input name="tipo"  type="radio"  value="N64">
+                    <label>N64</label>
+                </div>
+                <br>
+                <div class="generacion">
+                    <label>A que generacion perteneces</label>
+                    <br>
+                    <input name="gene"  type="radio">
+                    <label>Tercera Generacion</label>
+                    <br>
+                    <input name="gene" type="radio">
+                    <label>Cuarta Generacion</label>            
+                    <br>
+                    <input name="gene" type="radio">
+                    <label>Quinta Generacion</label>
+                </div>
+            </div>
+            
+            <div class="caja">
+                <label for="mensaje">Mensaje:</label><br>               
+                <textarea name="comentario" rows="10" cols="55" placeholder="Comentario re pulenta"></textarea>
+            </div>
+
+            <input class="myButton" type="submit" value="Enviar" onclick="return test();">         
+        </form>
+    </div>
+    <div id="algo">
+        <div class="recoJuego">
+            <p>Te recomendamos</p>
+            <div class="aka fede">
+                <a href="Contra.html"><img class="recog" src="img/contra-nes-front.jpg"></a>
+            </div>
+            
+            <div class="aka fede">
+                <a href="Castlevania.html"><img class="recog" src="img/castlevania-nes-front.jpg"></a>
+            </div>
+            
+            <div class="aka fede">
+                <a href="Megaman.html"><img class="recog" src="img/mega-man-front.jpg" ></a>
+            </div>
+            
+            <a class="prev" onclick="plus(-1)">&#10094;</a>
+            <a class="next" onclick="plus(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dol" onclick="juegoactual(1)"></span> 
+              <span class="dol" onclick="juegoactual(2)"></span> 
+              <span class="dol" onclick="juegoactual(3)"></span> 
+            </div>
+        </div>
+    </div>
+    <script src="Integrador.js"></script>
+    <footer>
+        <div class="redes">      
+            <a href="https://www.instagram.com/pankratsgaming/"><img src="img/insta.png" alt="Instagram"></a>
+        </div>
+        <div class="redes">
+            <a href="https://www.facebook.com/ezzeqiiel.acevedo">
+                <img src="img/face.png" alt="Facebook" style="margin-top: 15px;">
+            </a>
+        </div>
+        <div class="redes">
+            <a href="https://twitter.com/Fiero_12"><img src="img/twitter.png" alt="Twitter"></a>
+            
+        </div>
+        
+    </footer>            
+
+    
+</body>
+</html>
