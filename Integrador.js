@@ -5,7 +5,7 @@ function test(){
     const mail = document.getElementById("fmail").value;
     const juego = document.getElementById("fjuego").value;
 
-    if(!nombre.match(/^[A-Z a-z 0-9\s]+$/) || nombre.length<5){
+    if(!nombre.match(/^[A-Z a-z 0-9\s]+$/) || nombre.length<3){
         alert("Nick Incorrecto!");
         document.getElementById("fnick").focus();       
         return false;

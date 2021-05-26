@@ -45,18 +45,18 @@
         <form id="nose" method="GET" >
             <div class="nick">
                 <label>Dinos tu nick!</label> <br>          
-                <input name="fnick" id="fnick"  type="text" >
+                <input name="fnick" id="fnick"  type="text" required>
             </div>
             
             <div class="juego">
                 <label>Juego que desea que agreguemos:</label><br>
-                <input name="fjuego" id="fjuego" type="text" >
+                <input name="fjuego" id="fjuego" type="text" required>
                 <br>
             </div>
             
             <div class="mail">
                 <label>Email:</label><br>
-                <input name="fmail" id="fmail"  type="text">
+                <input name="fmail" id="fmail"  type="text" required>
                 <br>
             </div>
                 
@@ -90,7 +90,7 @@
             
             <div class="caja">
                 <label for="mensaje">Mensaje:</label><br>               
-                <textarea name="comentario" rows="10" cols="55" placeholder="Comentario re pulenta"></textarea>
+                <textarea name="comentario" rows="10" cols="55" placeholder="Dejanos un comentario!"></textarea>
             </div>
 
             <input class="myButton" type="submit" value="Enviar" onclick="return test();">         
@@ -126,20 +126,10 @@
     </div>
     <script src="Integrador.js"></script>
     <footer>
-        <div class="redes">      
-            <a href="https://www.instagram.com/pankratsgaming/"><img src="img/insta.png" alt="Instagram"></a>
-        </div>
-        <div class="redes">
-            <a href="https://www.facebook.com/ezzeqiiel.acevedo">
-                <img src="img/face.png" alt="Facebook" style="margin-top: 15px;">
-            </a>
-        </div>
-        <div class="redes">
-            <a href="https://twitter.com/Fiero_12"><img src="img/twitter.png" alt="Twitter"></a>
-            
-        </div>
-        
-    </footer>            
+        <a class="asa" href="https://www.instagram.com/pankratsgaming/">Instagram</a>   
+        <a class="asa" href="https://www.facebook.com/ezzeqiiel.acevedo">Facebook</a>         
+        <a class="asa" href="https://twitter.com/Fiero_12">Twitter<a>           
+</footer>            
 
     
 </body>
